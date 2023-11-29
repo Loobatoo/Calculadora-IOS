@@ -1,0 +1,197 @@
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+:root{
+    --clr-Grey: #a5a5a5;
+    --clr-orange: #ff9f0a;
+    --clr-Black: #343434;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+
+    background-color: #343434;
+
+    margin: 0;
+    padding: 0;
+}
+
+.Container{
+    background-color: #000000;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.Input p{
+    height: 10px;
+    width: 85%;
+    background-color: transparent;
+    color: white;
+    text-align: end;
+
+    font-size: 60px;
+}
+
+.Numbers{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    place-items: center;
+    gap: 5px;
+    padding: 2rem;
+}
+
+.Numbers button{
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.Number{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--clr-Black);
+    color: white;
+    font-size: 10px;
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.Signal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--clr-orange);
+    color: white;
+    font-size: 10px;
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.Top-Signal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--clr-Grey);
+    color: black;
+    font-size: 10px;
+    
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+#zero{
+    width: 100%;
+    border-radius: 50px;
+    grid-column: span 2;
+}
+
+#zero button{
+    width: 100%;
+    border-radius: 50px;
+}
+
+/* Iphone SE */
+
+@media (max-width: 375px) {
+    .Container{
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+    }
+
+    .Numbers{
+        height: 60%;
+        gap: 10px;
+    }
+
+    .Number{
+        width: 70px;
+        height: 70px;
+    }
+    
+    .Signal{
+        width: 70px;
+        height: 70px;
+    }
+    
+    .Top-Signal{
+        width: 70px;
+        height: 70px;
+    }
+}
+
+/* Iphone XR */
+
+@media (max-width: 414px) {
+    .Container{
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+    }
+
+    .Numbers{
+        height: 60%;
+    }
+}
+
+/* Iphone 12 Pro */
+
+@media (max-width: 390px) {
+    .Container{
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+    }
+
+    .Numbers{
+        height: 60%;
+    }
+}
+
+/* Galaxy Fold */
+
+@media (max-width: 280px) {
+    .Container{
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+    }
+
+    .Numbers{
+        height: 60%;
+    }
+}
