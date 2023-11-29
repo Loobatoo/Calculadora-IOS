@@ -72,7 +72,7 @@ function Igual(){
         let Result = PrimeiroValor-SegundoValor; 
         InputResultado.innerHTML = Result; 
     } else if ( Sinal === '+') {
-        let Result = PrimeiroValor+SegundoValor; 
+        let Result = Number(PrimeiroValor) + Number(SegundoValor);
         InputResultado.innerHTML = Result; 
     } 
 }
