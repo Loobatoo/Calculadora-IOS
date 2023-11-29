@@ -84,6 +84,10 @@ body{
     border-radius: 50%;
 }
 
+.Signal button{
+    color: white;
+}
+
 .Top-Signal{
     display: flex;
     align-items: center;
