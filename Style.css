@@ -63,7 +63,6 @@ body{
     align-items: center;
     justify-content: center;
     background-color: var(--clr-Black);
-    color: white;
     font-size: 10px;
 
     width: 50px;
@@ -71,12 +70,15 @@ body{
     border-radius: 50%;
 }
 
+.Number button{
+    color: white;
+}
+
 .Signal{
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: var(--clr-orange);
-    color: white;
     font-size: 10px;
 
     width: 50px;
@@ -93,12 +95,15 @@ body{
     align-items: center;
     justify-content: center;
     background-color: var(--clr-Grey);
-    color: black;
     font-size: 10px;
     
     width: 50px;
     height: 50px;
     border-radius: 50%;
+}
+
+.Top-Signal button{
+    color: black;
 }
 
 #zero{
@@ -110,6 +115,7 @@ body{
 #zero button{
     width: 100%;
     border-radius: 50px;
+    color: white;
 }
 
 /* Iphone SE */
