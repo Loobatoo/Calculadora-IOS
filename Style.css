@@ -252,3 +252,67 @@ body{
         height: 70px;
     }
 }
+
+@media (max-width: 320px) {
+    .Container{
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+    }
+
+    .Numbers{
+        height: 60%;
+        gap: 10px;
+    }
+
+    .Number{
+        width: 50px;
+        height: 50px;
+    }
+    
+    .Signal{
+        width: 50px;
+        height: 50px;
+    }
+    
+    .Top-Signal{
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media (max-width: 428px) {
+    .Container{
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+    }
+
+    .Numbers{
+        height: 60%;
+        gap: 10px;
+    }
+
+    .Number{
+        width: 70px;
+        height: 70px;
+    }
+    
+    .Signal{
+        width: 70px;
+        height: 70px;
+    }
+    
+    .Top-Signal{
+        width: 70px;
+        height: 70px;
+    }
+}
