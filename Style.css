@@ -132,7 +132,7 @@ body{
     }
 
     .Numbers{
-        height: 60%;
+        height: 80%;
         gap: 10px;
     }
 
@@ -168,9 +168,24 @@ body{
     .Numbers{
         height: 60%;
     }
+
+    .Number{
+        width: 70px;
+        height: 70px;
+    }
+    
+    .Signal{
+        width: 70px;
+        height: 70px;
+    }
+    
+    .Top-Signal{
+        width: 70px;
+        height: 70px;
+    }
 }
 
-/* Iphone 12 Pro */
+/* Iphone SE */
 
 @media (max-width: 390px) {
     .Container{
@@ -185,6 +200,22 @@ body{
 
     .Numbers{
         height: 60%;
+        gap: 10px;
+    }
+
+    .Number{
+        width: 70px;
+        height: 70px;
+    }
+    
+    .Signal{
+        width: 70px;
+        height: 70px;
+    }
+    
+    .Top-Signal{
+        width: 70px;
+        height: 70px;
     }
 }
 
@@ -203,5 +234,21 @@ body{
 
     .Numbers{
         height: 60%;
+        gap: 10px;
+    }
+
+    .Number{
+        width: 70px;
+        height: 70px;
+    }
+    
+    .Signal{
+        width: 70px;
+        height: 70px;
+    }
+    
+    .Top-Signal{
+        width: 70px;
+        height: 70px;
     }
 }
